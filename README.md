@@ -1,4 +1,4 @@
-# FFTDORMER-REPLICATION
+# FFTformer-Replication
 本仓库复现的论文为 https://openaccess.thecvf.com/content/CVPR2023/papers/Kong_Efficient_Frequency_Domain-Based_Transformers_for_High-Quality_Image_Deblurring_CVPR_2023_paper.pdf
 
 对应的代码为 https://github.com/kkkls/FFTformer
