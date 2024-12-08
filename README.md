@@ -38,10 +38,12 @@
 
 ### GoPro
 在 GoPro 上训练 
+
 bash train_GoPro.sh
 
 ### UHD-Blur
 在 UHD-Blur 上训练 
+
 bash train_UHD-Blur.sh
 
 ---
@@ -50,10 +52,12 @@ bash train_UHD-Blur.sh
 
 ### GoPro
 在 GoPro 上测试 
+
 bash test_GoPro.sh
 
 ### UHD-Blur
 在 UHD-Blur 上测试
+
 bash test_UHD-Blur.sh
 
 ---
@@ -62,14 +66,18 @@ bash test_UHD-Blur.sh
 
 ### GoPro
 在 GoPro 上测试结果如下：
+
 avg_ssim:0.969231
+
 avg_psnr:34.213578
 
 达到了论文中汇报的水平
 
 ### UHD-Blur
 在 UHD-Blur 上测试结果如下：
+
 avg_ssim:0.896829
+
 avg_psnr:31.817174
 
 该方法在 UHD 图像上表现也较好，但由于显存等限制只能使用滑动窗口（test_UHD.py）来测试，因此效果和性能上会有些不足
